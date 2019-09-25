@@ -1,183 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-</head>
-<body>
-  <header>
-    <div class="search-container">
-      <h1 class="b_logo" title="Back to Bing search" aria-label="Go to Bing homepage" data-bm="1">
-        <img src="https://www.bing.com/sa/simg/SharedSpriteDesktop_2x_090619.png" alt="Go to Bing homepage" title="Back to Bing search" data-bm="22">
-      </h1>
-    <div class="bing-search">
-      <div class="search-icon">
-        
-        <input type="text" class="keyword input-field" placeholder="Search" value="Christmas Gifts">
-        <i class="fa fa-search icon"></i>
-        </div>
-        
-    </div>
-
-    <div class="login-items">
-      <span>Sign In <i class="fa fa-user"></i></span>
-      <span>250 <i class='fas fa-medal'></i></span>
-      <span><i class="fa fa-gear"></i></span>
-    </div>
-    </div>
-    <hr/>
-    <div class="line-items-container">
-      <ul class="line-items">
-        <li class="active">Web</li>
-        <li>Images</li>
-        <li>Videos</li>
-        <li>Maps</li>
-        <li>News</li>
-        <li>Explore</li>
-      </ul>
-    </div>
-    <div class="meta-container">
-      <span>8,50,000 RESULTS</span>
-      <span>Any time <i class="fas fa-angle-down"></i></span>
-    </div>
-  </header>
-
-  <section class="grid-wrapper">
-    <div class="filter-controls">
-        <div class="control gift-type">Christmas Gifts</div>
-
-      <!-- <div class="control">Search
-        <input class="search-field form-control" type="text" name="search" placeholder="Enter the fruit name">
-      </div>  -->
-      <div class="control">Select Category
-        <select class="filter-field form-control">
-          <option value="">Select Category</option>
-          <option value="Trending">Trending</option>
-          <option value="Home Decor">Home Decor</option>
-          <option value="Lifestyle">Lifestyle</option>
-          <option value="Electronics">Electronics</option>
-          <option value="Appliances">Appliances</option>
-      
-        </select>
-      </div>
-      <div class="control">GIFT FOR
-          <div class="user-filter">
-            <a href="javascript:void(0)"><span id="All"><i class="fa fa-user"></i><br/>All</span></a>
-            <a href="javascript:void(0)"><span id="Men"><i class="fas fa-male"></i><br/>Men</span></a>
-            <a href="javascript:void(0)"><span id="Women"><i class="fas fa-female"></i><br/>Women</span></a>
-            <a href="javascript:void(0)"><span id="Baby"><i class="fas fa-baby"></i><br/>Kid</span></a>
-            <a href="javascript:void(0)"><span id="Teen"><i class="fas fa-child"></i><br/>Teen</span></a>
-          </div>
-        </div>
-        <div class="control">Filter by Price
-          <div class="user-filter">
-            <a href="javascript:void(0)"><span id="low">Low</span></a>
-            <a href="javascript:void(0)"><span id="medium">Medium</span></a>
-            <a href="javascript:void(0)"><span id="high">High</span></a>
-          </div>
-        </div>
-      <!-- <div class="control">Sort
-        <select class="sort-field form-control">
-          <option value="order">None</option>
-          <option value="title">Order by fruit name</option>
-          <option value="color">Order by color name</option>
-        </select>
-      </div> -->
-    </div>
-
-
-     <div class="grid">
-
-     </div>
-     
-      
-    </div> 
-    <div class="prev" id="prev"><i class="fas fa-angle-left"></i></div>
-    <div class="next" id="next"><i class="fas fa-angle-right"></i></div>
-    </section>
-    <section class="results">
-      <div class="siteList-left-container">
-        <div class="siteList">
-            <a href="#" target="_blank">Unique Christmas Gifts - Make your home beautiful</a> <br/>
-            <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
-            Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
-            Lorem Ipsum Content Lorem Ipsum Content
-           </div>
-           <div class="siteList">
-              <a href="#" target="_blank">Unique Christmas Gifts - Make your home beautiful</a> <br/>
-              <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
-              Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
-              Lorem Ipsum Content Lorem Ipsum Content
-             </div>
-             <div class="siteList border-below">
-                <a href="#" target="_blank">Unique hristmas Gifts - Make your home beautiful</a> <br/>
-                <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+   </head>
+   <body>
+      <header>
+         <div class="search-container">
+            <h1 class="b_logo" title="Back to Bing search" aria-label="Go to Bing homepage" data-bm="1">
+               <img src="https://www.bing.com/sa/simg/SharedSpriteDesktop_2x_090619.png" alt="Go to Bing homepage" title="Back to Bing search" data-bm="22">
+            </h1>
+            <div class="bing-search">
+               <div class="search-icon">
+                  <input type="text" class="keyword input-field" placeholder="Search" value="Christmas Gifts">
+                  <i class="fa fa-search icon"></i>
+               </div>
+            </div>
+            <div class="login-items">
+               <span>Sign In <i class="fa fa-user"></i></span>
+               <span>250 <i class='fas fa-medal'></i></span>
+               <span><i class="fa fa-gear"></i></span>
+            </div>
+         </div>
+         <hr/>
+         <div class="line-items-container">
+            <ul class="line-items">
+               <li class="active">Web</li>
+               <li>Images</li>
+               <li>Videos</li>
+               <li>Maps</li>
+               <li>News</li>
+               <li>Explore</li>
+            </ul>
+         </div>
+         <div class="meta-container">
+            <span>8,50,000 RESULTS</span>
+            <span>Any time <i class="fas fa-angle-down"></i></span>
+         </div>
+      </header>
+      <section class="grid-wrapper">
+         <div class="filter-controls">
+            <div class="control gift-type">Christmas Gifts</div>
+            <div class="control">
+               Select Category
+               <select class="filter-field form-control">
+                  <option value="">Select Category</option>
+                  <option value="Trending">Trending</option>
+                  <option value="Home_decor">Home Decor</option>
+                  <option value="Lifestyle">Lifestyle</option>
+                  <option value="Electronics">Electronics</option>
+                  <option value="Appliances">Appliances</option>
+               </select>
+            </div>
+            <div class="control">
+               GIFT FOR
+               <div class="user-filter">
+                  <a href="javascript:void(0)"><span id="All"><i class="fa fa-user"></i><br/>All</span></a>
+                  <a href="javascript:void(0)"><span id="Men"><i class="fas fa-male"></i><br/>Men</span></a>
+                  <a href="javascript:void(0)"><span id="Women"><i class="fas fa-female"></i><br/>Women</span></a>
+                  <a href="javascript:void(0)"><span id="Baby"><i class="fas fa-baby"></i><br/>Kid</span></a>
+                  <a href="javascript:void(0)"><span id="Teen"><i class="fas fa-child"></i><br/>Teen</span></a>
+               </div>
+            </div>
+            <div class="control">
+               Filter by Price
+               <div class="user-filter">
+                  <a href="javascript:void(0)"><span id="low">Low</span></a>
+                  <a href="javascript:void(0)"><span id="medium">Medium</span></a>
+                  <a href="javascript:void(0)"><span id="high">High</span></a>
+               </div>
+            </div>
+         </div>
+         <div class="grid">
+         </div>
+         </div> 
+         <div class="prev" id="prev"><i class="fas fa-angle-left"></i></div>
+         <div class="next" id="next"><i class="fas fa-angle-right"></i></div>
+      </section>
+      <section class="results">
+         <div class="siteList-left-container">
+            <div class="siteList">
+               <a href="javascript:void(0)" target="_blank">Unique Christmas Gifts - Make your home beautiful</a> <br/>
+               <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
+               Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
+               Lorem Ipsum Content Lorem Ipsum Content
+            </div>
+            <div class="siteList">
+               <a href="javascript:void(0)" target="_blank">Unique Christmas Gifts - Make your home beautiful</a> <br/>
+               <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
+               Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
+               Lorem Ipsum Content Lorem Ipsum Content
+            </div>
+            <div class="siteList border-below">
+               <a href="javascript:void(0)" target="_blank">Unique Christmas Gifts - Make your home beautiful</a> <br/>
+               <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
                <div> Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
-                Lorem Ipsum Content Lorem Ipsum Content</div>
-                <br/>
-               </div>
-               
-               <div class="siteList">
-                  <a href="#" target="_blank">Unique hristmas Gifts - Make your home beautiful</a> <br/>
-                  <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
-                  Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
                   Lorem Ipsum Content Lorem Ipsum Content
-                 </div>
-                 <div class="siteList">
-                    <a href="#" target="_blank">Unique hristmas Gifts - Make your home beautiful</a> <br/>
-                    <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
-                    Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
-                    Lorem Ipsum Content Lorem Ipsum Content
-                   </div>
-                   <div class="siteList">
-                      <a href="#" target="_blank">Unique hristmas Gifts - Make your home beautiful</a> <br/>
-                      <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
-                      Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
-                      Lorem Ipsum Content Lorem Ipsum Content
-                     </div>
                </div>
-               <div class="siteList right-container">
-                 <p>Related searches</p>
-                 <a href="#" target="_blank">Cheistmas Tree</a> <br/>
-                 <a href="#" target="_blank">Cheistmas Tree</a> <br/>
-                 <a href="#" target="_blank">Cheistmas Tree</a> <br/>
-                 <a href="#" target="_blank">Cheistmas Tree</a> <br/>
-
-                 <div class="related-image-container">
-                   <p>Related Image Searches</p>
-                  <div class="block-1">
+               <br/>
+            </div>
+            <div class="siteList">
+               <a href="javascript:void(0)" target="_blank">Unique Christmas Gifts - Make your home beautiful</a> <br/>
+               <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
+               Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
+               Lorem Ipsum Content Lorem Ipsum Content
+            </div>
+            <div class="siteList">
+               <a href="javascript:void(0)" target="_blank">Unique Christmas Gifts - Make your home beautiful</a> <br/>
+               <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
+               Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
+               Lorem Ipsum Content Lorem Ipsum Content
+            </div>
+            <div class="siteList">
+               <a href="javascript:void(0)" target="_blank">Unique Christmas Gifts - Make your home beautiful</a> <br/>
+               <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
+               Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
+               Lorem Ipsum Content Lorem Ipsum Content
+            </div>
+         </div>
+         <div class="siteList right-container">
+            <p>Related searches</p>
+            <a href="javascript:void(0)" target="_blank">Christmas Tree</a> <br/>
+            <a href="javascript:void(0)" target="_blank">Christmas Tree</a> <br/>
+            <a href="javascript:void(0)" target="_blank">Christmas Tree</a> <br/>
+            <a href="javascript:void(0)" target="_blank">Christmas Tree</a> <br/>
+            <div class="related-image-container">
+               <p>Related Image Searches</p>
+               <div class="block-1">
                   <div class="related-image-block">
-                    <img src="https://image.shutterstock.com/image-photo/christmas-gift-boxes-decorations-260nw-215593888.jpg" alt="gift-image"/>
+                     <img src="https://image.shutterstock.com/image-photo/Christmas-gift-boxes-decorations-260nw-215593888.jpg" alt="gift-image"/>
                   </div>
                   <div class="related-image-block">
-                      <img src="https://image.shutterstock.com/image-photo/red-luxury-new-year-gift-260nw-520458316.jpg" alt="gift-image"/>
-                    </div>
+                     <img src="https://image.shutterstock.com/image-photo/red-luxury-new-year-gift-260nw-520458316.jpg" alt="gift-image"/>
                   </div>
-                  <div class="block-1">
-                    <div class="related-image-block">
-                        <img src="https://images.all-free-download.com/images/graphicthumb/beautiful_christmas_design_elements_59_hd_picture_170242.jpg" alt="gift-image"/>
-                      </div>
-                      <div class="related-image-block">
-                          <img src="https://images.all-free-download.com/images/graphicthumb/beautiful_christmas_design_elements_117_hd_picture_170323.jpg" alt="gift-image"/>
-                        </div>
-                        </div>
-                        </div>
                </div>
-    </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.5.4/muuri.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    
-    <script src="script.js"></script>
-</body>
-
+               <div class="block-1">
+                  <div class="related-image-block">
+                     <img src="https://images.all-free-download.com/images/graphicthumb/beautiful_Christmas_design_elements_59_hd_picture_170242.jpg" alt="gift-image"/>
+                  </div>
+                  <div class="related-image-block">
+                     <img src="https://images.all-free-download.com/images/graphicthumb/beautiful_Christmas_design_elements_117_hd_picture_170323.jpg" alt="gift-image"/>
+                  </div>
+               </div>
+            </div>
+            <div class="siteList-end">
+               <a href="javascript:void(0)" target="_blank">Unique Christmas Gifts - Make your home beautiful</a> <br/>
+               <span class="displayUrl">http://www.amazon.in/Home-Kitchen/Unique <strong>Christmas Gifts</strong></span> <br/> 
+               Wide range of wall clocks, photo frames & other home decorative items. Buy now!<br/>
+               Lorem Ipsum Content Lorem Ipsum Content
+            </div>
+         </div>
+      </section>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.5.4/muuri.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="script.js"></script>
+   </body>
 </html>
