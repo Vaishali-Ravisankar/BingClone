@@ -15,7 +15,7 @@ var data = [{
   "category": "Lifestyle",
   "user": "Men",
   "width": "w2",
-  "height": ""
+  "height": "h2"
 },
 {
   "imageURL": "https://images-na.ssl-images-Amazon.com/images/I/81v1C8PiX3L._UL1500_.jpg",
@@ -165,7 +165,7 @@ var data = [{
   "category": "Home_decor",
   "user": "Teen",
   "width": "w2",
-  "height": "h2"
+  "height": ""
 },
 {
   "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71Q3Ckuql6L._AC_SX679_.jpg",
@@ -204,7 +204,7 @@ var data = [{
   "height": ""
 },
 {
-  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71mZMRyJ5hL._AC_SX679_.jpg",
+  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71g0apaBX%2BL._SX679_.jpg",
   "company": "Amazon",
   "price": 190,
   "category": "Home_decor",
@@ -213,7 +213,7 @@ var data = [{
   "height": ""
 },
 {
-  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71mZMRyJ5hL._AC_SX679_.jpg",
+  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41Han2ps4tL.jpg",
   "company": "Amazon",
   "price": 250,
   "category": "Home_decor",
@@ -222,29 +222,30 @@ var data = [{
   "height": ""
 },
 {
-  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71mZMRyJ5hL._AC_SX679_.jpg",
+  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/61WkfAZr8OL._AC_SY879_.jpg",
   "company": "Amazon",
-  "price": 250,
-  "category": "Home_decor",
+  "price": 25,
+  "category": "Lifestyle",
+  "user": "Kids",
+  "width": "w2",
+  "height": ""
+},
+{
+  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41Sm8leqclL._AC_.jpg",
+  "company": "Amazon",
+  "price": 230,
+  "category": "Appliances",
   "user": "Women",
   "width": "w2",
   "height": ""
 },
 {
-  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71mZMRyJ5hL._AC_SX679_.jpg",
+  "imageURL": "https://images-na.ssl-images-Amazon.com/images/I/51ioAqJ8PYL._SY879_.jpg",
   "company": "Amazon",
-  "price": 200,
+  "price": 90,
   "category": "Electronics",
-  "user": "Baby",
-  "width": "w2",
-  "height": ""
-},
-{
-  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71mZMRyJ5hL._AC_SX679_.jpg",
-  "company": "Amazon",
-  "price": 200,
-  "category": "Home_decor",
-  "user": "Teen",
+  "user": "Men",
+  "color": "green",
   "width": "w2",
   "height": ""
 }
@@ -391,7 +392,7 @@ var data_second = [{
   "height": ""
 },
 {
-  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71mZMRyJ5hL._AC_SX679_.jpg",
+  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41Han2ps4tL.jpg",
   "company": "Amazon",
   "price": 290,
   "category": "Electronics",
@@ -481,35 +482,36 @@ var data_second = [{
   "width": "w2",
   "height": ""
 },
-
 {
-  "imageURL": "https://images-na.ssl-images-Amazon.com/images/I/61YgNLYntML._UX679_.jpg",
+  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/61WkfAZr8OL._AC_SY879_.jpg",
   "company": "Amazon",
-  "price": 175,
-  "category": "Trending",
-  "user": "Men",
-  "color": "blue",
+  "price": 25,
+  "category": "Lifestyle",
+  "user": "Kids",
   "width": "w2",
   "height": ""
 },
 {
-  "imageURL": "https://images-na.ssl-images-Amazon.com/images/I/81j-6A4olML._UX679_.jpg",
+  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41Sm8leqclL._AC_.jpg",
   "company": "Amazon",
-  "price": 276,
-  "category": "Lifestyle",
-  "user": "Men",
+  "price": 230,
+  "category": "Appliances",
+  "user": "Women",
   "width": "w2",
   "height": ""
 },
 {
-  "imageURL": "https://images-na.ssl-images-Amazon.com/images/I/81j-6A4olML._UX679_.jpg",
+  "imageURL": "https://images-na.ssl-images-Amazon.com/images/I/51ioAqJ8PYL._SY879_.jpg",
   "company": "Amazon",
-  "price": 276,
-  "category": "Lifestyle",
+  "price": 90,
+  "category": "Electronics",
   "user": "Men",
+  "color": "green",
   "width": "w2",
   "height": ""
 }
+
+
 
 
 ]
@@ -747,33 +749,33 @@ var data_third = [{
   "height": ""
 },
 {
-  "imageURL": "https://images-na.ssl-images-Amazon.com/images/I/81v1C8PiX3L._UL1500_.jpg",
+  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/61WkfAZr8OL._AC_SY879_.jpg",
   "company": "Amazon",
-  "price": 150,
-  "category": "Trending",
+  "price": 25,
+  "category": "Lifestyle",
+  "user": "Kids",
+  "width": "w2",
+  "height": ""
+},
+{
+  "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41Sm8leqclL._AC_.jpg",
+  "company": "Amazon",
+  "price": 230,
+  "category": "Appliances",
   "user": "Women",
   "width": "w2",
   "height": ""
 },
 {
-  "imageURL": "https://i9.fnp.com//images/pr/l/v20190220110554/shining-memory-personalized-lamp_1.jpg",
+  "imageURL": "https://images-na.ssl-images-Amazon.com/images/I/51ioAqJ8PYL._SY879_.jpg",
   "company": "Amazon",
-  "price": 250,
-  "category": "Lifestyle",
-  "user": "Women",
-  "width": "w2",
-  "height": ""
-},
-{
-  "imageURL": "https://images-na.ssl-images-Amazon.com/images/I/61BgfDoO3NL._UY679_.jpg",
-  "company": "Amazon",
-  "price": 200,
-  "category": "Lifestyle",
+  "price": 90,
+  "category": "Electronics",
   "user": "Men",
+  "color": "green",
   "width": "w2",
   "height": ""
 }
-
 
 ]
 
@@ -845,6 +847,7 @@ if (window.location.hash) {
     $('.grid').empty();
     $('.grid').append(gridItems_third);
   } else {
+    window.location.hash = 1
     $('.grid').empty();
     $('.grid').append(gridItems);
   }
@@ -869,39 +872,47 @@ document.addEventListener('DOMContentLoaded', function () {
     priceAttr = 'data-price',
     filterFieldValue,
     dragOrder = [];
-  document.getElementById("Men").addEventListener("click", function () {
-    menFilter();
-  });
-  document.getElementById("Women").addEventListener("click", function () {
-    womenFilter();
-  });
-  document.getElementById("Baby").addEventListener("click", function () {
-    babyFilter();
-  });
-  document.getElementById("Teen").addEventListener("click", function () {
-    TeenFilter();
-  });
+
+      /*User Filters*/
+      $('#Men').click(function () {
+        userFilter("Men");
+      });
+      $('#Women').click(function () {
+        userFilter("Women");
+      });
+      $('#Baby').click(function () {
+        userFilter("Baby");
+      });
+      $('#Teen').click(function () {
+        userFilter("Teen");
+      });
+      $('#All').click(function () {
+        userFilter();
+      });
 
 
-  document.getElementById("All").addEventListener("click", function () {
-    AllFilter();
-  });
+      /*Carousel movement*/
+      $('#next').click(function () {
+        carouselmove();
+      });
 
-  document.getElementById("next").addEventListener("click", function () {
-    carouselmove();
-  });
-  document.getElementById("prev").addEventListener("click", function () {
-    carouselback();
-  });
-  document.getElementById("low").addEventListener("click", function () {
-    lowFilter();
-  });
-  document.getElementById("medium").addEventListener("click", function () {
-    mediumFilter();
-  });
-  document.getElementById("high").addEventListener("click", function () {
-    highFilter();
-  });
+      $('#prev').click(function () {
+        carouselback();
+      });
+
+      /*Price filters*/
+
+      $('#low').click(function () {
+        lowFilter();
+      });
+      $('#medium').click(function () {
+        mediumFilter();
+      });
+      $('#high').click(function () {
+        highFilter();
+      });
+
+
 
 
   // Init the grid layout
@@ -918,7 +929,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Filter field event binding
   filterField.addEventListener('change', filter);
-  // userfilterField.addEventListener('change', userfilter);
+
 
 
   // Filtering
@@ -932,58 +943,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  function menFilter() {
-    menfilterFieldValue = "Men"
+  function userFilter(data) {
+    userfilterFieldValue = data;
     grid.filter(function (item) {
       var element = item.getElement(),
-        ismenFilterMatch = !menfilterFieldValue ? true : (element.getAttribute(menfilterAttr) || '') === menfilterFieldValue;
-      return ismenFilterMatch;
-    });
-  }
-
-  function womenFilter() {
-    womenfilterFieldValue = "Women"
-    grid.filter(function (item) {
-      var element = item.getElement(),
-        iswomenFilterMatch = !womenfilterFieldValue ? true : (element.getAttribute(womenfilterAttr) || '') === womenfilterFieldValue;
-      return iswomenFilterMatch;
-    });
-  }
-
-  function babyFilter() {
-    babyfilterFieldValue = "Baby"
-    grid.filter(function (item) {
-      var element = item.getElement(),
-        isbabyFilterMatch = !babyfilterFieldValue ? true : (element.getAttribute(babyfilterAttr) || '') === babyfilterFieldValue;
-      return isbabyFilterMatch;
-    });
-  }
-
-  function TeenFilter() {
-    teenfilterFieldValue = "Teen"
-    grid.filter(function (item) {
-      var element = item.getElement(),
-        isteenFilterMatch = !teenfilterFieldValue ? true : (element.getAttribute(teenfilterAttr) || '') === teenfilterFieldValue;
-      return isteenFilterMatch;
-    });
-  }
-
-  function AllFilter() {
-    allfilterFieldValue = ""
-    grid.filter(function (item) {
-      var element = item.getElement(),
-        allFilterMatch = !allfilterFieldValue ? true : (element.getAttribute(allfilterAttr) || '') === allfilterFieldValue;
-      console.log('allFilterMatch', allFilterMatch)
-      return allFilterMatch;
-    });
-  }
-
-  function lowFilter() {
-    grid.filter(function (item) {
-      var element = item.getElement(),
-        test = element.getAttribute(priceAttr) <= 50
-      console.log(element.getAttribute(priceAttr))
-      return test;
+        isuserFilterMatch = !userfilterFieldValue ? true : (element.getAttribute(userfilterAttr) || '') === userfilterFieldValue;
+      return isuserFilterMatch;
     });
   }
 
@@ -1031,8 +996,5 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
 
     }
-
   }
-
-
 });
